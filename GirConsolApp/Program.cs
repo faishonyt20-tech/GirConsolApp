@@ -1,10 +1,10 @@
 ﻿namespace GirConsolApp
 {
-    internal class Program
+    internal class moderncalculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(ModernCalculator.Add(3, 7));
         }
     }
 }
